@@ -137,6 +137,17 @@ Educat follows a microservices architecture with a clear separation of concerns 
 ## Payment Integration
 
     Paytm: Integrated for secure and efficient fee processing.
+## Contribution:
+
+
+    Fork the repository
+    Create a new branch (git checkout -b feature-branch)
+    Commit your changes (git commit -am 'Add new feature')
+    Push to the branch (git push origin feature-branch)
+    Create a new Pull Request
+
+
+
 
 ## Real-Time Communication
 
