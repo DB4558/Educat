@@ -74,7 +74,7 @@ Educat follows a microservices architecture with a clear separation of concerns 
     ```bash
 
       git clone https://github.com/DB4558/Educat.git
-      cd Educat-FE
+      cd EducatFE
 
 5. Install dependencies and run the frontend:
 
