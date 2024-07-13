@@ -1,61 +1,61 @@
-Educat
+# Educat
 
 Educat is an educational management system designed to streamline institutional workflows and enhance operational efficiency. It includes modules for admin, student, faculty, estate, placement, and accounts. Key functionalities include user management, course registration, facility management, placement coordination, fee processing, and real-time communication. The integration of various technologies ensures secure data handling and seamless communication.
-Table of Contents
 
-    Features
-    Technologies Used
-    System Architecture
-    Installation
-    Usage
-    Modules
-    Security
-    Payment Integration
-    Real-Time Communication
-    Contributing
-    License
+## Table of Contents
 
-Features
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [System Architecture](#system-architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Modules](#modules)
+- [Security](#security)
+- [Payment Integration](#payment-integration)
+- [Real-Time Communication](#real-time-communication)
+- [Contributing](#contributing)
+- [License](#license)
 
-    User Management: Admin can manage users (students, faculty, staff) with roles and permissions.
-    Course Registration: Students can register for courses, and faculty can manage course details.
-    Facility Management: Estate module for managing institutional facilities.
-    Placement Coordination: Placement module for managing placement activities and coordination.
-    Fee Processing: Secure fee processing through Paytm integration.
-    Real-Time Communication: Using Apache Kafka and Twilio for seamless communication.
-    Secure Data Handling: AES encryption for sensitive data, JWT for authentication, and secure cookies for session management.
+## Features
 
-Technologies Used
+- **User Management**: Admin can manage users (students, faculty, staff) with roles and permissions.
+- **Course Registration**: Students can register for courses, and faculty can manage course details.
+- **Facility Management**: Estate module for managing institutional facilities.
+- **Placement Coordination**: Placement module for managing placement activities and coordination.
+- **Fee Processing**: Secure fee processing through Paytm integration.
+- **Real-Time Communication**: Using Apache Kafka and Twilio for seamless communication.
+- **Secure Data Handling**: AES encryption for sensitive data, JWT for authentication, and secure cookies for session management.
 
-    Frontend: React.js
-    Backend: Spring Boot
-    Database: MySQL
-    Authentication: JWT (JSON Web Tokens)
-    Encryption: AES (Advanced Encryption Standard)
-    Payment Gateway: Paytm
-    Communication: Twilio, Apache Kafka
+## Technologies Used
 
-System Architecture
+- **Frontend**: React.js
+- **Backend**: Spring Boot
+- **Database**: MySQL
+- **Authentication**: JWT (JSON Web Tokens)
+- **Encryption**: AES (Advanced Encryption Standard)
+- **Payment Gateway**: Paytm
+- **Communication**: Twilio, Apache Kafka
+
+## System Architecture
 
 Educat follows a microservices architecture with a clear separation of concerns between different modules. The frontend is developed using React.js, while the backend services are built with Spring Boot. MySQL is used as the database for storing user and operational data. Apache Kafka is employed for real-time communication, and Twilio handles SMS notifications.
-Installation
-Prerequisites
 
-  
-    Java Development Kit (JDK)
-    MySQL
-    Maven
+## Installation
 
-Backend Setup
+### Prerequisites
 
-    Clone the repository:
+- Node.js
+- Java Development Kit (JDK)
+- MySQL
+- Maven
 
-    bash
+### Backend Setup
 
-git clone https://github.com/yourusername/educat-backend.git
-cd educat-backend
-
-Configure the database in application.properties:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/educat-backend.git
+   cd educat-backend
+Configure the database in src/main/resources/application.properties:
 
 properties
 
