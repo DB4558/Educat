@@ -128,17 +128,17 @@ Educat follows a microservices architecture with a clear separation of concerns 
     Process fee payments
     Generate financial reports
 
-**Security**
+## Security
 
     JWT: Secure authentication mechanism for API access with refresh and access tokens
     AES Encryption: Encrypt sensitive data to ensure privacy.
     Cookies: Secure session management using HttpOnly and Secure flags.
 
-**Payment Integration**
+## Payment Integration
 
     Paytm: Integrated for secure and efficient fee processing.
 
-**Real-Time Communication**
+## Real-Time Communication
 
     Apache Kafka: For handling real-time messaging and notifications.
     Twilio: For Otp sending and verfication.
