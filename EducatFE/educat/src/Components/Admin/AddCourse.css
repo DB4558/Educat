@@ -1,0 +1,69 @@
+.add-course-container {
+    display: flex;
+    margin-top: 100px;
+    height: 95vh;
+    width: 50%;
+    margin-left: 370px;
+}
+
+.course-form {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 280px; 
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-form h2 {
+    margin-bottom: 40px;
+}
+
+.course-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.course-form input, .course-form textarea {
+    width: 30%; /* You may need to adjust this width if the textarea appears too narrow */
+    padding: 8px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.course-form textarea {
+    height: 100px; /* Adjust if more space is needed for description */
+    resize: vertical; /* Allows resizing only vertically */
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .course-form {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .course-form input, .course-form textarea {
+        width: 90%;
+    }
+}

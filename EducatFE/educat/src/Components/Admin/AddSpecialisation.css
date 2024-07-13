@@ -1,0 +1,75 @@
+.add-specialisation-container {
+    display: flex;
+    margin-top: 100px;  /* Gives space from the top */
+    height: 70vh;       /* Controls the height of the container */
+    width: 50%;         /* Adjusts the width of the container */
+    margin-left: 370px; /* Centers the form horizontally */
+}
+
+.specialisation-form {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialisation-form h2 {
+    margin-bottom: 40px;
+}
+
+.specialisation-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.specialisation-form input, .specialisation-form textarea {
+    width: 70%;         /* Makes the input fields wider */
+    padding: 8px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.specialisation-form textarea {
+    height: 100px;      /* Adjusts the height of textarea */
+    resize: vertical;   /* Allows vertical resizing only */
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .add-specialisation-container {
+        width: 100%;       /* Full width on smaller screens */
+        margin-left: 0;    /* Align to the left */
+        margin-top: 20px;  /* Smaller top margin */
+    }
+
+    .specialisation-form {
+        padding: 10px;
+        width: 90%;        /* Allows some margin on the sides */
+    }
+
+    .specialisation-form input, .specialisation-form textarea {
+        width: 100%;       /* Full width within the form */
+        margin-bottom: 20px; /* Reduced bottom margin */
+    }
+}

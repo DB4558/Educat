@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  height: 100vh; 
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1; 
+  position: relative;
+}
+
+.loginContainer {
+  flex: 3; 
+  position: relative;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  display: flex;
+}
+
+.logoContainer {
+  flex: 1; 
+}
+
+.buttonsContainer {
+  width: 200px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  position: absolute; 
+  left: 0; 
+  top: 0;
+  bottom: 0; 
+}
+
+.heading{
+  font-size:20px;
+  font-style: italic;
+}
+.Educat{
+  font-size: 35px;
+  color: blue;
+}
+
+.loginArrow{
+ size: 30px;
+}
+.Arrow{
+  margin-left: 10px;
+}
+.button {
+  margin-top: 15px; /* Space above the first button */
+  margin-bottom: 30px; /* Space between buttons */
+  padding: 10px 20px; /* Padding inside each button */
+  width: 100%; /* Full width to fill container */
+  cursor: pointer; /* Indicates clickable items */
+  background-color: #add8e6; /* Light blue background */
+  color: white; /* White text color */
+  font-weight: 700; 
+  font-size:20px;
+  text-align: center;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-transform: uppercase; /* Optional: makes all text uppercase */
+}
+
+.selected {
+  background-color: #007bff; 
+  color: white;
+}

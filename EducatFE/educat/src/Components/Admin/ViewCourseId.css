@@ -1,0 +1,107 @@
+.course-card {
+    margin-top: 90px;
+    max-width: 900px;
+    margin-left: 380px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.course-card h2 {
+    color: #333;
+}
+
+.course-card p {
+    color: #666;
+}
+
+.course-actions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.main-content {
+    margin-left: 260px; 
+    padding: 20px;
+    transition: margin-left 0.5s; 
+}
+
+
+
+/* Example color coding for different actions related to the course */
+.action-btn-edit {  border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #4CAF50; } /* Green for edit */
+.action-btn-student { 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #2196F3; } /* Blue for students */
+.action-btn-faculty {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+     background-color: #FFC107; } /* Yellow for faculty */
+.action-btn-schedule { 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #9C27B0; } /* Purple for schedule */
+.action-btn-prerequisite {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+     background-color: #E91E63; } /* Pink for prerequisite */
+.action-btn-domain {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+     background-color: bisque; } /* Indigo for domain registration */
+.action-btn-specialisation {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+     background-color: greenyellow; } /* Teal for specialisation registration */
+
+@media (max-width: 768px) {
+    .course-card, .course-actions {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .action-btn {
+        width: 90%; /* Full width buttons on smaller screens */
+    }
+}

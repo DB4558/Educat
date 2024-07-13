@@ -1,0 +1,60 @@
+.admin-card {
+    margin-top: 90px;
+    max-width: 900px;
+    margin-left: 380px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .admin-card h2 {
+    color: #333;
+  }
+  
+  .admin-card p {
+    color: #666;
+  }
+
+.counts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+.main-content {
+  margin-left: 260px; 
+  padding: 20px;
+  transition: margin-left 0.5s; 
+}
+
+.domain-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.domain-btn-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling for the domain buttons */
+.domain-btn-add, .domain-btn-view {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Green theme */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.domain-btn-add:hover, .domain-btn-view:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,24 @@
+.employee-card {
+    margin-top: 90px;
+    max-width: 900px;
+    margin-left: 380px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.employee-card h2 {
+    color: #333;
+}
+
+.employee-card p {
+    color: #666;
+}
+
+.main-content {
+    margin-left: 260px; 
+    padding: 20px;
+    transition: margin-left 0.5s; 
+}

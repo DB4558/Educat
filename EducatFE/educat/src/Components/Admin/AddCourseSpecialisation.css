@@ -1,0 +1,64 @@
+.add-course-specialisation-container {
+    display: flex;
+    margin-top: 100px;
+    height: 80vh;
+    width: 50%;
+    margin-left: 370px; /* Centering the form horizontally */
+}
+
+.course-specialisation-form {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 280px; /* Adjust based on sidebar width */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-specialisation-form h2 {
+    margin-bottom: 40px; /* Space under the header */
+}
+
+.course-specialisation-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.course-specialisation-form input, .course-specialisation-form select {
+    width: 30%; /* Adjust as necessary for better alignment */
+    padding: 8px;
+    margin-bottom: 40px; /* Space under each input field */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.submit-btn:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+@media (max-width: 768px) {
+    .course-specialisation-form {
+        margin-left: 0; /* Remove left margin for smaller screens */
+        padding: 10px; /* Less padding on smaller devices */
+    }
+
+    .course-specialisation-form input, .course-specialisation-form select {
+        width: 90%; /* Wider inputs on smaller screens */
+    }
+}

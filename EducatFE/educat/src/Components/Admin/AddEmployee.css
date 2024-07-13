@@ -1,0 +1,72 @@
+.add-employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.employee-form {
+    width: 80%; /* Adjust width based on layout needs */
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee-form h2 {
+    margin-bottom: 40px;
+}
+
+.employee-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.employee-form input, .employee-form select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .add-employee-container {
+        width: 90%; /* More responsive on smaller screens */
+        height: auto;
+    }
+
+    .employee-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}

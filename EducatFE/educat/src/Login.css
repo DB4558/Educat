@@ -1,0 +1,82 @@
+.login-page {
+    display: flex;
+    background: url('./background.jpg') no-repeat center center fixed;
+  background-size: cover;
+    flex-direction: column;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    height: 100vh;
+  }
+
+  
+  .login-card {
+    margin-top: 100px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  body {
+    background: linear-gradient(135deg, #ece9e6, #ffffff); /* Subtle gradient for body */
+  }
+  
+  
+ 
+
+  input:focus {
+    border-color: red; /* Highlight color on focus */
+    outline: none;
+  }
+  .input-container {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px; /* Space between input fields */
+}
+
+.input-container input {
+    padding-left: 35px; /* Make space for the icon */
+    width: calc(100% - 55px); /* Adjust width to fit container, considering padding */
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.input-container .icon {
+    position: absolute;
+    left: 20px; /* Distance from left edge of the input container */
+    top: 10px; /* Center vertically in the input field */
+    color: #ccc;
+    z-index: 10;
+}
+
+
+  button {
+    margin-top:150px;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .back-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  

@@ -1,0 +1,70 @@
+.edit-grade-container {
+    display: flex;
+    margin-top: 100px;
+    height: 95vh;
+    width: 50%;
+    margin-left: 370px; /* Centering the form horizontally */
+}
+
+.grade-form {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 280px; /* To adjust based on sidebar width */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grade-form h2 {
+    margin-bottom: 40px; /* Space under the header */
+}
+
+.grade-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grade-form input, .grade-form textarea, .grade-form select {
+    width: 80%; /* Adjust as necessary for alignment */
+    padding: 8px;
+    margin-bottom: 20px; /* Space under each input field */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.grade-form textarea {
+    height: 150px; /* Provides adequate space for a description */
+    resize: vertical; /* Allows only vertical resizing */
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.submit-btn:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+@media (max-width: 768px) {
+    .edit-grade-container, .grade-form {
+        margin-left: 0; /* Remove left margin for smaller screens */
+        padding: 10px; /* Less padding on smaller devices */
+        width: 100%; /* Wider form on smaller screens */
+    }
+
+    .grade-form input, .grade-form textarea, .grade-form select {
+        width: 90%; /* Wider inputs on smaller screens */
+    }
+}

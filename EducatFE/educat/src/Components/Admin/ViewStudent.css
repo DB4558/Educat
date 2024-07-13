@@ -1,0 +1,80 @@
+.view-students-container {
+    display: flex;
+    height: 100vh;
+}
+
+.students-table-container {
+    margin-top: 100px;
+    margin-left: 280px; 
+    padding: 20px;
+    width: 87%;
+    overflow-x: auto; /* Allows horizontal scrolling if table is too wide */
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.students-table th, .students-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.students-table-container h2 {
+    color: #333; /* Dark grey color for the text */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Space between the heading and the table */
+}
+
+.students-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.students-table td button {
+    padding: 6px 6px;
+    margin-top: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 6px;
+    width: 40px;
+    transition: background-color 0.2s;
+}
+
+.students-table td button:hover {
+    background-color: blue; /* Blue to indicate interactivity on hover */
+}
+
+.back-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #555; /* Darker color for distinction */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensure it doesn't flex with other elements */
+    width: max-content; /* Only as wide as necessary */
+    margin-left: auto; /* Aligns to the right side of the container */
+    margin-right: auto; /* Centering if necessary */
+}
+
+.back-btn:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .students-table-container {
+        margin-left: 0;
+        width: 100%;
+    }
+}

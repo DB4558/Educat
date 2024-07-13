@@ -1,0 +1,78 @@
+.view-courses-container {
+    display: flex;
+    height: 100vh;
+}
+
+.courses-table-container {
+    margin-top: 180px;
+    margin-left: 280px; 
+    padding: 20px;
+    width: 90%;
+    overflow-x: auto; 
+}
+
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.courses-table th, .courses-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.courses-table-container h2 {
+    color: #333; /* Dark grey color for the text */
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Space between the heading and the table */
+}
+
+.courses-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.courses-table td button {
+    padding: 6px 6px;
+    margin-top: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.courses-table td button:hover {
+    background-color: blue;
+}
+
+.back-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #555; /* Darker color for distinction */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensure it doesn't flex with other elements */
+    width: max-content; /* Only as wide as necessary */
+    margin-left: auto; /* Aligns to the right side of the container */
+    margin-right: auto; /* Centering if necessary */
+}
+
+.back-btn:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .courses-table-container {
+        margin-left: 0;
+        width: 100%;
+    }
+}
