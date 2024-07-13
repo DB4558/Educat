@@ -13,8 +13,6 @@ Educat is an educational management system designed to streamline institutional 
 - [Security](#security)
 - [Payment Integration](#payment-integration)
 - [Real-Time Communication](#real-time-communication)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -92,52 +90,55 @@ Educat follows a microservices architecture with a clear separation of concerns 
     Students can register for courses and view their placements.
     Faculty can manage course details and communicate with students in real time.
 
-##Modules
-Admin
+## Modules
+**Admin**
 
     Manage users (students, faculty, staff)
     Assign roles and permissions
     Oversee system operations
 
-Student
+**Student**
 
     Register for courses
-    View academic and placement details
-    Communicate with faculty and admin
+    View courseDetails,Timetable,Result documents
+    Fee payment
+    View academic, hostel and placement details
+    Communicate with faculty 
 
-Faculty
+**Faculty**
 
     Manage course details
+    Register as course instructor
     Communicate with students
     Provide academic guidance
 
-Estate
+**Estate**
 
     Manage institutional facilities
-    Schedule maintenance activities
+   
 
-Placement
+**Placement**
 
     Coordinate placement activities
     Manage company interactions
     Track placement progress
 
-Accounts
+**Accounts**
 
     Process fee payments
     Generate financial reports
 
-Security
+**Security**
 
-    JWT: Secure authentication mechanism for API access.
+    JWT: Secure authentication mechanism for API access with refresh and access tokens
     AES Encryption: Encrypt sensitive data to ensure privacy.
     Cookies: Secure session management using HttpOnly and Secure flags.
 
-Payment Integration
+**Payment Integration**
 
     Paytm: Integrated for secure and efficient fee processing.
 
-Real-Time Communication
+**Real-Time Communication**
 
     Apache Kafka: For handling real-time messaging and notifications.
-    Twilio: For sending SMS notifications to users.
+    Twilio: For Otp sending and verfication.
