@@ -50,8 +50,8 @@ Educat follows a microservices architecture with a clear separation of concerns 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DB4558/educat-backend.git
-   cd educat-backend
+   git clone https://github.com/DB4558/Educat.git
+   cd Educat_BE
 2. Configure the database in src/main/resources/application.properties:
 
    ```bash
@@ -73,8 +73,8 @@ Educat follows a microservices architecture with a clear separation of concerns 
 
     ```bash
 
-      git clone https://github.com/DB4558/educat-frontend.git
-      cd educat-frontend
+      git clone https://github.com/DB4558/Educat.git
+      cd Educat-FE
 
 5. Install dependencies and run the frontend:
 
