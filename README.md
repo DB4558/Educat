@@ -44,7 +44,6 @@ Educat follows a microservices architecture with a clear separation of concerns 
 
 ### Prerequisites
 
-- Node.js
 - Java Development Kit (JDK)
 - MySQL
 - Maven
@@ -55,45 +54,45 @@ Educat follows a microservices architecture with a clear separation of concerns 
    ```bash
    git clone https://github.com/yourusername/educat-backend.git
    cd educat-backend
-Configure the database in src/main/resources/application.properties:
+2. Configure the database in src/main/resources/application.properties:
 
-properties
+   ```bash
 
-spring.datasource.url=jdbc:mysql://localhost:3306/educat
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+      spring.datasource.url=jdbc:mysql://localhost:3306/educat
+      spring.datasource.username=root
+      spring.datasource.password=yourpassword
 
-Build and run the backend:
+3. Build and run the backend:
 
-bash
+      ```bash
 
-    mvn clean install
-    mvn spring-boot:run
+          mvn clean install
+          mvn spring-boot:run
 
-Frontend Setup
+4. Frontend Setup
 
     Clone the repository:
 
-    bash
+    ```bash
 
-git clone https://github.com/yourusername/educat-frontend.git
-cd educat-frontend
+      git clone https://github.com/yourusername/educat-frontend.git
+      cd educat-frontend
 
-Install dependencies and run the frontend:
+5. Install dependencies and run the frontend:
 
-bash
+   ```bash
 
-    npm install
-    npm start
+       npm install
+       npm start
 
-Usage
+6.Usage
 
     Open the browser and navigate to http://localhost:3000.
     Log in as an admin to manage users, courses, and facilities.
     Students can register for courses and view their placements.
     Faculty can manage course details and communicate with students in real time.
 
-Modules
+##Modules
 Admin
 
     Manage users (students, faculty, staff)
